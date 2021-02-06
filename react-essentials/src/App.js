@@ -14,7 +14,7 @@ function Main(props) {
     <section> 
       <p>We serve the most {props.adjective} biryani in varanasi city.</p>
       <ul style={{textAlign: "left" }}>
-      {  props.dishes.map((dish) => (<li>{dish}</li>))}
+      {  props.dishes.map((dish) => (<li key={dish.id}>{dish.title}</li>))}
       </ul>
     </section>
   );
@@ -29,7 +29,9 @@ function Footer(props) {
   )
 }
 
-const dishes = [ "Macaroni and Cheese", "Salmon", "Tofu with Vegetables" ];
+const dishes = [ "Macaroni and Cheese", "Salmon", "Tofu with Vegetables", "Minestrone"];
+
+const dishObjects = dishes.map((dish, i) => ({ id: i, title: dish }));
 
 // dishes.map((dish) => console.log(dish)); put this inside JSX expression.
 
@@ -37,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <Header name="Sanjeev Kapoor" />
-      <Main adjective="amazing" dishes={dishes} />
+      <Main adjective="amazing" dishes={dishObjects} />
       <Footer year={new Date().getFullYear()} />
     </div>
   );
