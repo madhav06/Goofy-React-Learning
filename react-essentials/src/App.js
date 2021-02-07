@@ -35,7 +35,7 @@ function Footer(props) {
   )
 }
 
-const dishes = [ "Macaroni and Cheese", "Salmon", "Tofu with Vegetables", "Minestrone"];
+const dishes = [ "Spicy Chicken Biryani", "Muslim Style Mutton Biryani", "Lamb-Egg Roasted Biryani", "Minced Meat Keema Biryani", "Kolkata Style Dum Chicken Biryani"];
 
 const dishObjects = dishes.map((dish, i) => ({ id: i, title: dish }));
 
