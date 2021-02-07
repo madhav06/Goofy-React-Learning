@@ -1,5 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
+import restaurant from "./tasty_biryani.png";
+import egg from "./egg_biryani.jpeg";
+import chicken from "./chicken_biryani.jpeg";
 
 function Header(props) {
   return (
@@ -13,6 +16,9 @@ function Main(props) {
   return (
     <section> 
       <p>We serve the most {props.adjective} biryani in varanasi city.</p>
+      <img src={restaurant} height={200} alt="tasty handi chicken biryani at a restaurant table" />
+      <img src={egg} height={200} alt="egg and lamb biryani with roasted lamb and half baked rice" />
+      <img src={chicken} height={200} alt="chicken hot and spicy biryani" />
       <ul style={{textAlign: "left" }}>
       {  props.dishes.map((dish) => (<li key={dish.id}>{dish.title}</li>))}
       </ul>
