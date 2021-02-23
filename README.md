@@ -37,7 +37,7 @@ this is the interface we built, Wisdom Pet Medicine is where pet's are treated.
 
 <!-- ![interfaceicon](icon_01.jpg) -->
 
-![interfaceicon](<![interfaceicon](icon_01.jpg)>)
+![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_01.png)
 
 # Module A: React Essentials
 
