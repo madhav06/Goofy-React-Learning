@@ -39,10 +39,16 @@ this is the interface we built, Wisdom Pet Medicine is where pet's are treated.
 
 ![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_01.png)
 
-We can add appointments, creating subcomponents:
+We can add appointments, seach appointments by creating subcomponents:
+we will fetch data from **'data.json'** file, screenshot is below.
+
+![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_03.png)
+
+Let's create first AddAppointments.js
 
 ```js script
 //src --> components --> AddAppointments.js
+
 AddAppointments.js;
 
 import React, { Component } from "react";
@@ -52,6 +58,8 @@ class AddAppointments extends Component {
   }
 }
 export default AddAppointments;
+
+// Rest of code is in src/components/AddAppointments.js
 ```
 
 screenshot is below:
