@@ -39,6 +39,28 @@ this is the interface we built, Wisdom Pet Medicine is where pet's are treated.
 
 ![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_01.png)
 
+We can add appointments, creating subcomponents:
+
+```js script
+//src --> components --> AddAppointments.js
+AddAppointments.js;
+
+import React, { Component } from "react";
+class AddAppointments extends Component {
+  render() {
+    return <div>Add -- Appointments </div>;
+  }
+}
+export default AddAppointments;
+```
+
+screenshot is below:
+![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_02.png)
+
+```js script
+// End of Module B
+```
+
 # Module A: React Essentials
 
 #### Working with useState:
