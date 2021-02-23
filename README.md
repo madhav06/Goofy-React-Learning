@@ -26,11 +26,18 @@ $ npm start // to start local server
 // Download React Developer Tools from chrome store.
 // https://lnkd.in/gKmxaj7
 ```
+
 ```js script
 // Open in VS Code and files should be: node_modules, public, src, .gitignore, {}package-lock,json, {}package.json and README.md respectively.
 // install dependencies now
 $ npm i --save bootstrap react-icons lodash jquery popper.js moment react-moment
 ```
+
+this is the interface we built, Wisdom Pet Medicine is where pet's are treated.
+
+<!-- ![interfaceicon](icon_01.jpg) -->
+
+![interfaceicon](<![interfaceicon](icon_01.jpg)>)
 
 # Module A: React Essentials
 
