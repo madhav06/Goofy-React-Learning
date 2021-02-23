@@ -1,5 +1,15 @@
 # Goofy-React-Learning
 
+In this repo we will be learning react, we will be builing projects etc.
+
+---
+
+---
+
+| Module A         | Module B           | Module C           |
+| ---------------- | ------------------ | ------------------ |
+| React Essentials | Interface in React | Fullstack in React |
+
 #### Working with useState:
 
 ```js script
