@@ -6,9 +6,33 @@ In this repo we will be learning react, we will be builing projects etc.
 
 ---
 
-| Module A         | Module B           | Module C           |
-| ---------------- | ------------------ | ------------------ |
-| React Essentials | Interface in React | Fullstack in React |
+| Module A         | Module B           | Module C                 |
+| ---------------- | ------------------ | ------------------------ |
+| React Essentials | Interface in React | Hosting Fullstack        |
+| React SPA's      | React Ecosystem    | Working with APIs, Hooks |
+
+# Module B: Interface in React
+
+We will be working in virtualenvironment. quicktips: 'pip3 install virtualenv'. 'source env/bin/activate' to start. 'deactivate' to stop.
+mkdir my_proj && cd my_proj (reactinterface in our case).
+
+**Requirements: ** check node, git, npm installed or not. If not install.
+
+```js script
+cd ~/Desktop
+$ npx create-react-app reactinterface
+$ cd reactinterface
+$ npm start // to start local server
+// Download React Developer Tools from chrome store.
+// https://lnkd.in/gKmxaj7
+```
+```js script
+// Open in VS Code and files should be: node_modules, public, src, .gitignore, {}package-lock,json, {}package.json and README.md respectively.
+// install dependencies now
+$ npm i --save bootstrap react-icons lodash jquery popper.js moment react-moment
+```
+
+# Module A: React Essentials
 
 #### Working with useState:
 
