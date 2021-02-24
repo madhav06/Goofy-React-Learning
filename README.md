@@ -66,7 +66,7 @@ export default AddAppointments;
 ![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_02.png)
 
 Let's add a new appointment now!
-Feed the record for **"Sniggles"** and _boom!!_ we see in React-Developers-Tools its working like magic.
+Feed the record for our pet cat **"Sniggles"** and _boom!!_ we see in React-Developers-Tools its working like magic.
 _This is where we feel how responsive and powerful react is!_
 
 ```js script
@@ -76,10 +76,38 @@ _This is where we feel how responsive and powerful react is!_
 **Screenshot is below:**
 ![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_05.png)
 
-As we can add record for new appointments, similarly in this dynamic responsive interface we can delete the booked appointments.
+As we can add record for new appointments, similarly in this dynamic responsive interface we can delete the booked appointments. here we deleted appointment of our pet fish **"Nugget"**.
 
 **Screenshot is below:**
 ![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_04.png)
+
+Earlier before building a searchbar, our interface of application **will look like this:**
+
+**Screenshot is below:**
+![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_06.png)
+
+Let's code a serachbar now!
+
+```js script
+//http://lnkd.in/gcrTSj9 ---> Code
+// bring it in SearchAppointments.js
+
+import React, {Component} from 'react';
+class SearchAppointments extends Component {
+  render() {
+    return(
+      paste<Code>
+    );
+  }
+}
+export default SearchAppointments;
+update class -> className;
+```
+
+Now once built searchbar, our searchbar will look like this. This searchbar is dynamic it can filter search on the basis of **"Name"**, **"Owner"**, **"Appointment Date"**, **"Asc"** and **"Desc"** etc.
+
+**Screenshot is below:**
+![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_07.png)
 
 ```js script
 // End of Module B
