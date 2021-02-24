@@ -62,8 +62,24 @@ export default AddAppointments;
 // Rest of code is in src/components/AddAppointments.js
 ```
 
-screenshot is below:
+**Screenshot is below:**
 ![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_02.png)
+
+Let's add a new appointment now!
+Feed the record for **"Sniggles"** and _boom!!_ we see in React-Developers-Tools its working like magic.
+_This is where we feel how responsive and powerful react is!_
+
+```js script
+// To know more, visit: src/components/AddAppointments.js
+```
+
+**Screenshot is below:**
+![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_05.png)
+
+As we can add record for new appointments, similarly in this dynamic responsive interface we can delete the booked appointments.
+
+**Screenshot is below:**
+![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_04.png)
 
 ```js script
 // End of Module B
