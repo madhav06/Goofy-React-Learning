@@ -104,7 +104,45 @@ export default SearchAppointments;
 update class -> className;
 ```
 
-Now once built searchbar, our searchbar will look like this. This searchbar is dynamic it can filter search on the basis of **"Name"**, **"Owner"**, **"Appointment Date"**, **"Asc"** and **"Desc"** etc.
+Now once built searchbar, our searchbar will look like this. This searchbar is dynamic it can filter, sort on the basis of **"Pet Name"**, **"Owner"**, **"Appointment Date"**, **"Asc"** and **"Desc"** etc.
+
+```js script
+// how this search works:
+
+//In App.js
+filteredApts = filteredApts.sort((a,b) => {
+  if(a[this.state.orderBy].toLowerCase() < b[this.state.orderBy].toLowerCase()) {
+    return -1*order;
+  }
+  else {
+    return 1*order;
+  }
+}).filter(eachItem => {
+  return (
+    eachItem['petName'].toLowerCase().includes(this.state.queryText.toLowerCase()) ||
+    eachItem['ownerName'].toLowerCase().includes(this.state.queryText.toLowerCase()) ||
+    eachItem['aptNotes'].toLowerCase().includes(this.state.querytext.toLowerCase())
+  );
+});
+.
+.
+.
+constructor() {
+  super();
+  this.state = {
+    myAppointments: [],
+    .
+    .
+    .
+    queryText: 'ba',
+    .
+    .
+    .
+  };
+}
+
+// rest of code in src/components/App.js
+```
 
 **Screenshot is below:**
 ![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_07.png)
