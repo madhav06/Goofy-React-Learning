@@ -16,7 +16,7 @@ In this repo we will be learning react, we will be builing projects etc.
 We will be working in virtualenvironment. quicktips: 'pip3 install virtualenv'. 'source env/bin/activate' to start. 'deactivate' to stop.
 mkdir my_proj && cd my_proj (reactinterface in our case).
 
-**Requirements: ** check node, git, npm installed or not. If not install.
+**Requirements:** check node, git, npm installed or not. If not install.
 
 ```js script
 cd ~/Desktop
