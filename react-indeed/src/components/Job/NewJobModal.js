@@ -25,7 +25,7 @@ export default (props) => {
     const classes = useStyles();
     const skills = ["React","Python","DjangoORM","Node", "NoSql", "Sql", "AWS", "Vue","Git"];
     return(
-        <Dialog open={true} fullWidth>
+        <Dialog open={false} fullWidth>
             <DialogTitle>
                 <Box display="flex" justifyContent="space-betwwen" alignItems="center">
                     Post Job

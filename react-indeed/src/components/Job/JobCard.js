@@ -1,6 +1,8 @@
+import React from "react";
 import {Box, Grid, Typography, Button, makeStyles} from '@material-ui/core';
+import {differenceInMinutes} from 'date-fns';
 
-const skills = ["Javascript", "React.js", "Node.js", "Vue.js", "AWS EC2" ];
+//const skills = ["Javascript", "React.js", "Node.js", "Vue.js", "AWS EC2" ];
 
 const useStyles = makeStyles((theme) => ({
     wrapper: {
@@ -38,16 +40,16 @@ export default (props) => {
         <Box p={2} className="classes.wrapper">
             <Grid container xs>  
                 <Grid item>
-                    <Typography variant="subtitle1"> Frontend Developer</Typography>
-                    <Typography className={classes.companyName} variant="subtitle1"> Xorient</Typography>
+                    <Typography variant="subtitle1">{props.title}</Typography>
+                    <Typography className={classes.companyName} variant="subtitle1"> {props.companyName}</Typography>
                 </Grid>
                 <Grid item container xs>
-                    {skills.map((skill) => (<Grid key={skill} className={classes.skillsChip} item>{skill}</Grid>))}
+                    {props.skills.map((skill) => (<Grid key={skill} className={classes.skillsChip} item>{skill}</Grid>))}
                 
                 </Grid>
                 <Grid item container direction="column" alignItems="flex-end" xs>
                     <Grid item>
-                      <Typography variant="caption">27 min ago | Full time | Remote</Typography>
+                      <Typography variant="caption">{differenceInMinutes(Date.now(),props.postedOn)} | {props.type} | {props.location}</Typography>
                     </Grid>
                     <Grid item>
                         <Box mt={2}>
