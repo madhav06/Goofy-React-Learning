@@ -147,6 +147,11 @@ constructor() {
 **Screenshot is below:**
 ![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_07.png)
 
+We can also edit the contents of booked appointments, for the very same reason used contentEditable elements.
+
+**Screenshot is below:**
+![interfaceicon](https://github.com/madhav06/projectImages/blob/master/icon_08.png)
+
 ```js script
 // End of Module B
 ```
