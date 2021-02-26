@@ -44,6 +44,7 @@ export default (props) => {
                             <MenuItem value="Full time">Full time</MenuItem>
                             <MenuItem value="Part time">Part time</MenuItem>
                             <MenuItem value="Contract">Contract</MenuItem>
+                            <MenuItem value="Work from home">Contract</MenuItem>
                         </Select>
                     </Grid> 
                     <Grid item xs={6}>
