@@ -12,8 +12,8 @@ export default () => {
   const [jobs, setJobs] = useState([]);
 
   const fetchJobs = async() => {
-    const req = await firestore.collection('jobs').orderBy('postedOn', 'desc').get();
-    const tempJobs = req.docs.map((job) => ({...job.data(), id: job.id, }));
+    const req = await firestore.collection('jobs').orderBy('location', 'desc').get();
+    const tempJobs = req.docs.map((job) => ({...job.data(), id: job.id,}));
     console.log(tempJobs);
     setJobs(tempJobs);
   };
