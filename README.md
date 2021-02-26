@@ -6,10 +6,10 @@ In this repo we will be learning react, we will be builing projects etc.
 
 ---
 
-| Module A         | Module B           | Module C                 |
-| ---------------- | ------------------ | ------------------------ |
-| React Essentials | Interface in React | Hosting Fullstack        |
-| React SPA's      | React Ecosystem    | Working with APIs, Hooks |
+| Module A          | Module B           | Module C                                         |
+| ----------------- | ------------------ | ------------------------------------------------ |
+| React Essentials  | Interface in React | Single Page Application in React: Job Search App |
+| Hosting Fullstack | React Ecosystem    | Working with APIs, Hooks                         |
 
 # Module B: Interface in React
 
