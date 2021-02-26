@@ -51,8 +51,12 @@ Let's build a job search engine.
 ![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_03_03.png)
 
 **Step3:**
-Displaying job listing here now
+Displaying job listing here now, let's add _material-ui_ code to improve UI.
 ![screentshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_04_04.png)
+
+**Step4:**
+Let's create a _<NewModal>_ for **Post a Job**, this is how it will look.
+![screentshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_05_05.png)
 
 ```js script
 // End of Module C
