@@ -62,6 +62,10 @@ Let's create a _NewModal_ for **Post a Job**, this is how it will look.
 We used **google firebase** as our backend services.
 ![screentshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_06_06.png)
 
+**Step6:**
+Let's add a new Job post, once we start doing we see the our states are bind and data are getting filled in from react-developers-tools.
+![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_07_07.png)
+
 ```js script
 // End of Module C
 ```
