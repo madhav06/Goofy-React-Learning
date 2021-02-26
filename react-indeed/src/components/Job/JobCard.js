@@ -49,7 +49,7 @@ export default (props) => {
                 </Grid>
                 <Grid item container direction="column" alignItems="flex-end" xs>
                     <Grid item>
-                      <Typography variant="caption">  9 days ago | {props.type} | {" "}  {props.location}</Typography>
+                      <Typography variant="caption">  {props.postedDate} | {props.type} | {" "}  {props.location}</Typography>
                     </Grid>
                     <Grid item>
                         <Box mt={2}>
