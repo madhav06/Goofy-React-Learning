@@ -6,10 +6,40 @@ In this repo we will be learning react, we will be builing projects etc.
 
 ---
 
-| Module A          | Module B           | Module C                                         |
-| ----------------- | ------------------ | ------------------------------------------------ |
-| React Essentials  | Interface in React | Single Page Application in React: Job Search App |
-| Hosting Fullstack | React Ecosystem    | Working with APIs, Hooks                         |
+| Module A          | Module B           | Module C                       |
+| ----------------- | ------------------ | ------------------------------ |
+| React Essentials  | Interface in React | SPA's in React: Job Search App |
+| Hosting Fullstack | React Ecosystem    | Working with APIs, Hooks       |
+
+# Module C: SPA's in React: Job Search App
+
+This is a SPA (Single Page Application) built in react, for example here we built a Job Search app similar to _Indeed.com_
+Again,
+**Note:** We will be working in virtualenvironment. quicktips: 'pip3 install virtualenv'. 'source env/bin/activate' to start. 'deactivate' to stop.
+mkdir my_proj && cd my_proj (reactinterface in our case).
+
+**Requirements:** check node, git, npm installed or not. If not install.
+
+```js script
+cd ~/Desktop
+$ npx create-react-app react-indeed
+$ cd react-indeed
+$ npm start // to start local server
+// Download React Developer Tools from chrome store.
+// https://lnkd.in/gKmxaj7
+```
+
+```js script
+// Open in VS Code and files should be: node_modules, public, src, .gitignore, {}package-lock,json, {}package.json and README.md respectively.
+// install dependencies now
+$ npm i --save bootstrap react-moment
+```
+
+this is the application we built, React Indeed, where we can search job openings, post new job openings or just apply.
+
+<!-- ![interfaceicon](icon_01.jpg) -->
+
+![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_01_01.png)
 
 # Module B: Interface in React
 
