@@ -46,6 +46,10 @@ this is the application we built, React Indeed, where we can search job openings
 Let's create Header. This is how it will look after rendering:
 ![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_02_02.png)
 
+**Step2:**
+
+![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_03_03.png)
+
 ```js script
 // End of Module C
 ```
