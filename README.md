@@ -39,7 +39,16 @@ this is the application we built, React Indeed, where we can search job openings
 
 <!-- ![interfaceicon](icon_01.jpg) -->
 
+**Final App Screenshot:**
 ![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_01_01.png)
+
+**Step1:**
+Let's create Header. This is how it will look after rendering:
+![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_02_02.png)
+
+```js script
+// End of Module C
+```
 
 # Module B: Interface in React
 
