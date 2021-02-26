@@ -47,8 +47,12 @@ Let's create Header. This is how it will look after rendering:
 ![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_02_02.png)
 
 **Step2:**
-
+Let's build a job search engine.
 ![screenshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_03_03.png)
+
+**Step3:**
+Displaying job listing here now
+![screentshot_icon](https://github.com/madhav06/projectImages/blob/master/scr_04_04.png)
 
 ```js script
 // End of Module C
