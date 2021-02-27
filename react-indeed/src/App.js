@@ -5,7 +5,7 @@ import Header from "./components/Header/";
 import SearchBar from './components/SearchBar';
 import JobCard from './components/Job/JobCard';
 import NewJobModal from './components/Job/NewJobModal';
-import {firestore} from './firebase/config';
+import {firestore, app} from './firebase/config';
 
 
 export default () => {
@@ -13,12 +13,18 @@ export default () => {
   const [loading, setLoading] = useState(true);
 
   const fetchJobs = async() => {
-    const req = await firestore.collection('jobs').orderBy('location', 'desc').get();
+    const req = await firestore.collection('jobs').orderBy('postedDate', 'desc').get();
     const tempJobs = req.docs.map((job) => ({...job.data(), id: job.id,}));
     console.log(tempJobs);
     setJobs(tempJobs);
     setLoading(false);
   };
+
+  const postJob = async jobDetails => {
+    await firestore.collection('jobs').add({ ...jobDetails, postedDate: app.firestore.FieldValue.serverTimestamp()})
+  }
+
+
   useEffect(() => {
     fetchJobs();
 
@@ -26,9 +32,10 @@ export default () => {
 
   return <ThemeProvider theme={theme}>
     <Header />
-    <NewJobModal />
+    <NewJobModal postJob={postJob}/>
     <Grid container justify="center"> 
       <Grid item xs={10}>
+        <NewJobModal />
         <SearchBar />
         {loading ? (<Box display="flex" justifyContent="center" ><CircularProgress />  </Box>): (jobs.map((job) => (
           <JobCard key={job.id} {...job} />
